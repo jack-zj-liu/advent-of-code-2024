@@ -30,8 +30,6 @@ for line in stdin:
 games.append(game)
 
 def calc(a, b, prize):
-    mincost = inf
-
     m = lcm(a[0], a[1])
 
     a0, b0, p0 = a[0] * m//a[0], b[0] * m//a[0], prize[0] * m//a[0]
